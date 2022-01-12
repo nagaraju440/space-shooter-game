@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>space game</title>
+    <style>
+        *{
+            padding:0px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="position: absolute;left: 25%;top: 50% ;" id="score"> score:0</h2>
+    <h1 id="demo" style="position: absolute;top: 50%;left: 35%;z-index: 1;color: white;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"></h1>
+
+    <img src="space1.jpg" alt="" width="100px" height="100px" id="img" style="display: none;">
+    <img src="monster1.jpg" alt="" width="100px" height="100px" id="img1" style="display: none;">
+    <canvas id="canvas"  style="background-color: rgb(54, 52, 52);margin-left: 500px;"> </canvas>
+    <script src="spacegame.js"></script>
+</body>
+</html>
